@@ -48,7 +48,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row"><?php echo random(1000000,9999999) ?></th>
+                            <th scope="row"><?php echo rand(1000000,9999999) ?></th>
                             <td><?php echo $_POST['name'] ?></td>
                             <td><?php echo $_POST['bookDate']." ". $_POST['startTime'] ?></td>
                             <td><?php echo date('Y-m-d', strtotime($_POST['bookDate'].  '+'. $_POST['duration'] .'days')) ." ".$_POST['startTime']; ?></td>

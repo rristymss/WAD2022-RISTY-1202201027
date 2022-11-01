@@ -49,7 +49,7 @@
                                 <li class="list-group-item text-primary"><center><b>Manual</b></center></li>
                             </ul>
                             <div class="card-body">
-                                <center><a href="Risti_booking.php?car==rush" class="btn btn-primary">Book Now</a></center>
+                                <center><a href="Risti_booking.php?car=rush" class="btn btn-primary">Book Now</a></center>
                             </div>
                         </div>
                     </div>

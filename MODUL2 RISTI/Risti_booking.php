@@ -65,7 +65,7 @@
                                     <option value="Daihatsu Ayla">Daihatsu Ayla</option>
                                     <option value="Honda Brio">Honda Brio</option>
                                 </select>
-                            <?php  ?>
+                            <?php } ?>
                             <?php if($car == "ayla"){?>
                                 <select class="form-select" aria-label="Car Type" name="carType">
                                     <option value="Toyota Rush">Toyota Rush</option>
