@@ -38,7 +38,7 @@
     <div class="container">
         <div class="row pt-5">
             <div class="col-md-12 mt-5">
-                <h3><b>My Show Room</b></h3>
+                <h3><b>My Showroom</b></h3>
                 <p>List Show Room Risti - 1202201027</p>
             </div>
         </div>
