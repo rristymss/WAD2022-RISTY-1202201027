@@ -1,2 +1,2 @@
-<?php 
-require './pages/Home-Risty.php';
+    <?php 
+    require './pages/Home-Risty.php';
