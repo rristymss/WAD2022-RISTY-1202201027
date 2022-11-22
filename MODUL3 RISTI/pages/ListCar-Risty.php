@@ -2,7 +2,7 @@
         include ("../config/connector.php");
 
         $query = "SELECT * FROM showroom_risty_table";
-        $show = mysql_query($conn, $query);
+        $show = mysqli_query($conn, $query);
         $row = mysqli_num_rows($show);
 
     ?>

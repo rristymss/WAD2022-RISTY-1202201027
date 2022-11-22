@@ -17,7 +17,7 @@
     $path = $id.'_'.$filename;
     move_uploaded_file($_FILES['img']['tmp_name'],'../asset/image/'.$path);
 
-    if (!mysqli_query($conn, "INSERT INTO showroom_risty_table VALUES ('$id','$carName','$owner','$merk','$date','$desc','$path' '$status')")){
+    if (!mysqli_query($conn, "INSERT INTO showroom_risty_table VALUES ('$id','$carName','$owner','$merk','$date','$desc','$path','$status')")){
         echo ("Error description: " . mysqli_error($conn));
     }
 
