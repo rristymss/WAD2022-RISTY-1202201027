@@ -88,7 +88,7 @@
                                 <div class="col-md-12 p-5">
                                     <div clas="d-flex justify-content-center align-items-center min-vh-100">
                                         <h3><b>Masuk</b></h3>
-                                        <form method="POST">
+                                        <form method="POST" action="../config/login.php">
                                             <div class="mb-3 mt-5">
                                                 <label for="exampleFormControlInput1" class="form-label">Email</label>
                                                 <input type="email" class="form-control" id="exampleFormControlInput1" name="email">

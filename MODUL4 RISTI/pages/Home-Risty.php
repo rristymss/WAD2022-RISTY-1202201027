@@ -1,8 +1,8 @@
     <?php 
     session_start();
     
-    if($_SESSION['id'] == null){
-        header("Location:../MODUL4 RISTI/pages/Register-Risty.php");
+    if(!isset($_SESSION['id'])){
+        header("Location:../pages/Register-Risty.php");
     }
     ?>
     <!doctype html>
