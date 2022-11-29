@@ -3,7 +3,7 @@
 
             include ("../config/connector.php");
             $uid = $_SESSION['id'];
-            $query = "SELECT * FROM user_risti WHERE id='$id'";
+            $query = "SELECT * FROM user_risti WHERE id='$uid'";
             $show = mysqli_query($conn, $query);
             $row = mysqli_num_rows($show);
     ?>

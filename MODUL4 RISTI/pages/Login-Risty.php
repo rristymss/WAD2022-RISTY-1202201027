@@ -6,7 +6,7 @@
         $password = "";
 
         // Create connection
-        session_destroy();
+        session_start();
         $conn = new mysqli($servername, $username, $password, $dbname);
         
     if (isset($_POST['login'])) {

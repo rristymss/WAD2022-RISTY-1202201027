@@ -48,7 +48,7 @@
                                         </div>
                                         <div class="mb-3">
                                             <label for="exampleFormControlInput1" class="form-label">Kata Sandi</label>
-                                            <input type="password" class="form-control" id="exampleFormControlInput1" name="password">
+                                            <input type="password" class="form-control" id="exampleFormControlInput1" name="password1">
                                         </div>
                                         <div class="mb-3">
                                             <label for="exampleFormControlInput1" class="form-label">Konfirmasi Kata Sandi</label>
