@@ -20,14 +20,17 @@
             header("location: ../pages/Home-Risty.php");
         } else {
             echo("<script>
-            alert('Password Tidak Cocok');
+            alert('Password Salah');
             window.location.href='../pages/Login-Risty.php';
             </script>");
         }
         
     }
     else{
-        echo("error");
+        echo("<script>
+        alert('Masukkan email dan password');
+        window.location.href='../pages/Login-Risty.php';
+        </script>");
     }
 
     ?>
