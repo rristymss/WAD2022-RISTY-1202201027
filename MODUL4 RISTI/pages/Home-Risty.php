@@ -22,7 +22,7 @@
                     <a class="nav-link text-white" href="">Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link text-white" href="./pages/ListCar-Risty.php">MyCar</a>
+                    <a class="nav-link text-white" href="../pages/ListCar-Risty.php">MyCar</a>
                     </li>
                 </ul>
                 </div>
