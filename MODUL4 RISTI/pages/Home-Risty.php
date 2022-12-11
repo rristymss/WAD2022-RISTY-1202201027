@@ -2,7 +2,7 @@
     session_start();
     
     if(!isset($_SESSION['id'])){
-        header("Location:../pages/Register-Risty.php");
+        header("Location:./pages/Register-Risty.php");
     }
     ?>
     <!doctype html>
@@ -22,7 +22,7 @@
                     <a class="nav-link text-white" href="">Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link text-white" href="../pages/ListCar-Risty.php">MyCar</a>
+                    <a class="nav-link text-white" href="./pages/ListCar-Risty.php">MyCar</a>
                     </li>
                 </ul>
                 </div>

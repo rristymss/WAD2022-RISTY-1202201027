@@ -34,6 +34,7 @@
                                 <div class="col-md-12 p-5">
                                     <h3><b>Registrasi</b></h3>
                                     <form action="../config/register.php" method="POST">
+                                        <input type="hidden" name='level' value='user'>
                                         <div class="mb-3 mt-5">
                                             <label for="exampleFormControlInput1" class="form-label">Email</label>
                                             <input type="email" class="form-control" id="exampleFormControlInput1" name="email">

@@ -7,9 +7,10 @@
     $phone=$_POST['phone'];
     $password1=$_POST['password1'];
     $password2=$_POST['password2'];
+    $level = $_POST['level'];
 
     if($password1 == $password2){
-        if (!mysqli_query($conn, "INSERT INTO user_risti VALUES ('$id','$name','$email','$password2','$phone')")){
+        if (!mysqli_query($conn, "INSERT INTO user_risti VALUES ('$id','$name','$email','$password2','$phone','$level')")){
             echo ("Error description: " . mysqli_error($conn));
         }
         $_SESSION['registered'] = 'Berhasil Register';
