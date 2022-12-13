@@ -24,7 +24,7 @@ class CarController extends Controller
         $car = Showroom::where('user_id', $id)->get();
         // return view ('user.profile',['users'=> $users])
         // dd($cars);
-        return view('myCar',['cars'=>$cars]);
+        return view('myCar',['cars'=>$car]);
     }
 
     /**
@@ -73,7 +73,7 @@ class CarController extends Controller
      */
     public function show($id)
     {
-        $cars = Showrooms::where('id', $id)->get();
+        $cars = Showroom::where('id', $id)->get();
         return view ('carDetails',['cars' => $cars]);
     }
 
