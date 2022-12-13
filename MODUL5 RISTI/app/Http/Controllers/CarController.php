@@ -21,7 +21,7 @@ class CarController extends Controller
     public function index()
     {
         $id = Auth::user()->id;
-        $cars = Showroom::where('user_id', $id)->get();
+        $car = Showroom::where('user_id', $id)->get();
         // return view ('user.profile',['users'=> $users])
         // dd($cars);
         return view('myCar',['cars'=>$cars]);
@@ -73,7 +73,7 @@ class CarController extends Controller
      */
     public function show($id)
     {
-        $cars = Showroom::where('id', $id)->get();
+        $cars = Showrooms::where('id', $id)->get();
         return view ('carDetails',['cars' => $cars]);
     }
 
