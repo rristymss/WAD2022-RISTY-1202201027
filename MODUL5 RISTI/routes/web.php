@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Auth::routes();
+Auth::routes()
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/addCar', [App\Http\Controllers\CarController::class, 'create'])->name('addCar');
